@@ -14,6 +14,10 @@
 		67D41EAD1D19952F00AFC345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67D41EAB1D19952F00AFC345 /* LaunchScreen.storyboard */; };
 		67D41EB81D19952F00AFC345 /* birthdayappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41EB71D19952F00AFC345 /* birthdayappTests.swift */; };
 		67D41EC31D19952F00AFC345 /* birthdayappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41EC21D19952F00AFC345 /* birthdayappUITests.swift */; };
+		67D41ED11D199EB900AFC345 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED01D199EB900AFC345 /* AddViewController.swift */; };
+		67D41ED31D199ED500AFC345 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED21D199ED500AFC345 /* SubViewController.swift */; };
+		67D41ED61D19AE8A00AFC345 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED41D19AE8A00AFC345 /* ListTableViewCell.swift */; };
+		67D41ED71D19AE8A00AFC345 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D41ED51D19AE8A00AFC345 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		67D41EBE1D19952F00AFC345 /* birthdayappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birthdayappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D41EC21D19952F00AFC345 /* birthdayappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birthdayappUITests.swift; sourceTree = "<group>"; };
 		67D41EC41D19952F00AFC345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D41ED01D199EB900AFC345 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		67D41ED21D199ED500AFC345 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		67D41ED41D19AE8A00AFC345 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		67D41ED51D19AE8A00AFC345 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				67D41EA21D19952F00AFC345 /* AppDelegate.swift */,
 				67D41EA41D19952F00AFC345 /* ViewController.swift */,
+				67D41ED01D199EB900AFC345 /* AddViewController.swift */,
+				67D41ED41D19AE8A00AFC345 /* ListTableViewCell.swift */,
+				67D41ED51D19AE8A00AFC345 /* ListTableViewCell.xib */,
 				67D41EA61D19952F00AFC345 /* Main.storyboard */,
+				67D41ED21D199ED500AFC345 /* SubViewController.swift */,
 				67D41EA91D19952F00AFC345 /* Assets.xcassets */,
 				67D41EAB1D19952F00AFC345 /* LaunchScreen.storyboard */,
 				67D41EAE1D19952F00AFC345 /* Info.plist */,
@@ -230,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67D41EAD1D19952F00AFC345 /* LaunchScreen.storyboard in Resources */,
+				67D41ED71D19AE8A00AFC345 /* ListTableViewCell.xib in Resources */,
 				67D41EAA1D19952F00AFC345 /* Assets.xcassets in Resources */,
 				67D41EA81D19952F00AFC345 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +271,9 @@
 			files = (
 				67D41EA51D19952F00AFC345 /* ViewController.swift in Sources */,
 				67D41EA31D19952F00AFC345 /* AppDelegate.swift in Sources */,
+				67D41ED11D199EB900AFC345 /* AddViewController.swift in Sources */,
+				67D41ED31D199ED500AFC345 /* SubViewController.swift in Sources */,
+				67D41ED61D19AE8A00AFC345 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
