@@ -27,6 +27,7 @@ class AddViewController: UIViewController {
         }
     }
     
+    //保存！
     @IBAction func save(){
         let birthdayDictionary = ["name": nameTextField.text! , "birthday": birthdayTextField.text!]
         

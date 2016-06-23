@@ -39,14 +39,13 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UqN-GL-N28">
-                                                    <rect key="frame" x="22" y="3" width="122" height="30"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TaA-3D-zsb">
+                                                    <rect key="frame" x="42" y="0.0" width="94" height="35"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <connections>
-                                                        <segue destination="D22-z8-wAp" kind="modal" identifier="toSubViewController" id="Pgg-Xk-xIm"/>
-                                                    </connections>
-                                                </button>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -59,7 +58,7 @@
                     <navigationItem key="navigationItem" title="一覧" id="fOX-x9-AOK">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="IBu-oG-dYx">
                             <connections>
-                                <segue destination="e78-dc-1GV" kind="push" id="tSf-wh-Xrw"/>
+                                <segue destination="e78-dc-1GV" kind="modal" id="Lvx-uI-p2l"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -134,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6x6-ia-BrT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="693.5" y="1141.5"/>
+            <point key="canvasLocation" x="693.5" y="1188.5"/>
         </scene>
         <!--AddViewController-->
         <scene sceneID="eMw-rr-4WA">
@@ -144,14 +143,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KAE-5r-kH9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KAE-5r-kH9">
                                 <rect key="frame" x="46" y="165" width="100" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8ZJ-6G-CVd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="誕生日" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8ZJ-6G-CVd">
                                 <rect key="frame" x="46" y="269" width="100" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -173,15 +172,24 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" title="新規追加" id="i7H-eT-c2R">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ntG-cq-BFN"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="n0a-bF-4VM"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="n0a-bF-4VM">
+                            <connections>
+                                <action selector="save" destination="e78-dc-1GV" id="qb7-7y-bvg"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="birthdayTextField" destination="NH3-v5-vBp" id="rZK-r1-jyl"/>
+                        <outlet property="nameTextField" destination="GZQ-fU-uvv" id="ncm-HK-C1l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hhr-yP-hqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1197.5" y="368.5"/>
+            <point key="canvasLocation" x="1215.5" y="376.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cRB-MH-9vf">
