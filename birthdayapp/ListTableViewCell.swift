@@ -11,7 +11,7 @@ import UIKit
 class ListTableViewCell: UITableViewCell {
     
     @IBOutlet var nameLabel: UILabel!
-    @IBOutlet var ageLabel: UILabel!
+    @IBOutlet var birthdayLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

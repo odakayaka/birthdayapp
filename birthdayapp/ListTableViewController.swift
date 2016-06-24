@@ -12,16 +12,17 @@ class ListTableViewController: UITableViewController  {
     
     var wordArray: [AnyObject] = []
     let saveData = NSUserDefaults.standardUserDefaults()
+    var selectedText: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tableView.registerNib(UINib(nibName: "ListTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
         
-//        if saveData.objectForKey("wordArray") != nil {
-//            wordArray = saveData.objectForKey("WORD") as! [String]//保存
-//        }
-        let wordArray: AnyObject! = saveData.arrayForKey("WORD")
+        if saveData.arrayForKey("WORD") != nil{
+            wordArray = saveData.arrayForKey("WORD")!
+        }
+        //let wordArray: AnyObject! = saveData.arrayForKey("WORD")
     }
     
 
@@ -51,9 +52,21 @@ class ListTableViewController: UITableViewController  {
         let nowIndexPathDictionary: (AnyObject) = wordArray[indexPath.row]//wordArrayからDictionaryを取り出す
         
         cell.nameLabel.text = nowIndexPathDictionary["name"] as? String//Labelに代入
-        cell.ageLabel.text = nowIndexPathDictionary["age"] as? String//Labelに代入
+        cell.birthdayLabel.text = nowIndexPathDictionary["birthday"] as? String//Labelに代入
         
         return cell
     }
+    
+//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//            performSegueWithIdentifier("toSubViewController", sender: nil)
+//        selectedText = wordArray[indexPath.row] as! String
+//    }
+//    
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if (segue.identifier == "toSubViewController"){
+//            let SubViewController = (segue.destinationViewController as? SubViewController)!
+//            SubViewController.text = selectedText
+//        }
+//    }
 }
 

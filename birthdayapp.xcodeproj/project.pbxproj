@@ -15,7 +15,6 @@
 		67D41EB81D19952F00AFC345 /* birthdayappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41EB71D19952F00AFC345 /* birthdayappTests.swift */; };
 		67D41EC31D19952F00AFC345 /* birthdayappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41EC21D19952F00AFC345 /* birthdayappUITests.swift */; };
 		67D41ED11D199EB900AFC345 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED01D199EB900AFC345 /* AddViewController.swift */; };
-		67D41ED31D199ED500AFC345 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED21D199ED500AFC345 /* SubViewController.swift */; };
 		67D41ED61D19AE8A00AFC345 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED41D19AE8A00AFC345 /* ListTableViewCell.swift */; };
 		67D41ED71D19AE8A00AFC345 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D41ED51D19AE8A00AFC345 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -272,7 +271,6 @@
 				67D41EA51D19952F00AFC345 /* ListTableViewController.swift in Sources */,
 				67D41EA31D19952F00AFC345 /* AppDelegate.swift in Sources */,
 				67D41ED11D199EB900AFC345 /* AddViewController.swift in Sources */,
-				67D41ED31D199ED500AFC345 /* SubViewController.swift in Sources */,
 				67D41ED61D19AE8A00AFC345 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

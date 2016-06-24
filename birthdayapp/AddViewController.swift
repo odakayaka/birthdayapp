@@ -21,22 +21,23 @@ class AddViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        
-//        if saveData.arrayForKey("WORD") != nil{
-//            wordArray = saveData.arrayForKey("WORD")!
-//        }
+//         Do any additional setup after loading; the; view.
+//        
+        if saveData.arrayForKey("WORD") != nil{
+            wordArray = saveData.arrayForKey("WORD")!
+        }
     }
     
     //保存！
     @IBAction func save(){
         let birthdayDictionary = ["name": nameTextField.text! , "birthday": birthdayTextField.text!]
         
-
         
-        saveData.setObject(wordArray, forKey: "WORD")
+        
+        
         wordArray.append(birthdayDictionary)
-       NSUserDefaults.standardUserDefaults().synchronize()
+        saveData.setObject(wordArray, forKey: "WORD")
+        NSUserDefaults.standardUserDefaults().synchronize()
         
         let alert = UIAlertController(title:"保存完了" , message:"新規登録が完了しました！" , preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK" , style: UIAlertActionStyle.Default, handler: nil))
