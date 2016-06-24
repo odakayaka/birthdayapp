@@ -16,6 +16,7 @@ class AddViewController: UIViewController {
     //配列の読み込み
     var wordArray: [AnyObject] = []
     let saveData = NSUserDefaults.standardUserDefaults()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,8 +32,11 @@ class AddViewController: UIViewController {
     @IBAction func save(){
         let birthdayDictionary = ["name": nameTextField.text! , "birthday": birthdayTextField.text!]
         
-        wordArray.append(birthdayDictionary)
+
+        
         saveData.setObject(wordArray, forKey: "WORD")
+        wordArray.append(birthdayDictionary)
+       NSUserDefaults.standardUserDefaults().synchronize()
         
         let alert = UIAlertController(title:"保存完了" , message:"新規登録が完了しました！" , preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK" , style: UIAlertActionStyle.Default, handler: nil))

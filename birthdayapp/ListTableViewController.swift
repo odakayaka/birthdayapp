@@ -21,6 +21,7 @@ class ListTableViewController: UITableViewController  {
 //        if saveData.objectForKey("wordArray") != nil {
 //            wordArray = saveData.objectForKey("WORD") as! [String]//保存
 //        }
+        let wordArray: AnyObject! = saveData.arrayForKey("WORD")
     }
     
 
