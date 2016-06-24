@@ -9,7 +9,7 @@
 import UIKit
 
 class AddViewController: UIViewController {
-    
+    //宣言
     @IBOutlet var nameTextField:UITextField!
     @IBOutlet var birthdayTextField:UITextField!
     
@@ -22,9 +22,9 @@ class AddViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        if saveData.arrayForKey("WORD") != nil{
-            wordArray = saveData.arrayForKey("WORD")!
-        }
+//        if saveData.arrayForKey("WORD") != nil{
+//            wordArray = saveData.arrayForKey("WORD")!
+//        }
     }
     
     //保存！

@@ -38,6 +38,7 @@
                 <outlet property="ageLabel" destination="9qS-qD-KIm" id="mc3-A1-Gnw"/>
                 <outlet property="nameLabel" destination="hS6-Oi-ycY" id="Ynz-0t-ydw"/>
             </connections>
+            <point key="canvasLocation" x="173" y="336"/>
         </tableViewCell>
     </objects>
 </document>

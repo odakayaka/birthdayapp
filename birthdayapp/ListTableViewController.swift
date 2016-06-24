@@ -7,8 +7,8 @@
 //
 
 import UIKit
-
-class ListTableViewController: UITableViewController {
+//宣言
+class ListTableViewController: UITableViewController  {
     
     var wordArray: [AnyObject] = []
     let saveData = NSUserDefaults.standardUserDefaults()
@@ -17,6 +17,10 @@ class ListTableViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tableView.registerNib(UINib(nibName: "ListTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        
+//        if saveData.objectForKey("wordArray") != nil {
+//            wordArray = saveData.objectForKey("WORD") as! [String]//保存
+//        }
     }
     
 
