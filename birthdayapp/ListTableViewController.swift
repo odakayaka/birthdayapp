@@ -13,6 +13,12 @@ class ListTableViewController: UITableViewController  {
     var wordArray: [AnyObject] = []
     let saveData = NSUserDefaults.standardUserDefaults()
     var selectedText: String?
+    
+    var index = 0
+    
+    @IBAction func back(segue: UIStoryboardSegue){
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,11 +68,23 @@ class ListTableViewController: UITableViewController  {
 //        selectedText = wordArray[indexPath.row] as! String
 //    }
 //    
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        if (segue.identifier == "toSubViewController"){
-//            let SubViewController = (segue.destinationViewController as? SubViewController)!
-//            SubViewController.text = selectedText
-//        }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "toSubView"){
+            let subViewController = segue.destinationViewController as? SubViewController
+            subViewController?.index = self.index
+        }
+    }
+    //セルを選択！
+//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//       
+//            let targetViewController = self.storyboard!.instantiateViewControllerWithIdentifier("SubViewController")as! UIViewController
+//            self.presentViewController(targetViewController, animated: true, completion: nil)
+//        
 //    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.index = indexPath.row
+        self.performSegueWithIdentifier("toSubView", sender: nil)
+    }
 }
 
