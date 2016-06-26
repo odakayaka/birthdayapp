@@ -182,6 +182,12 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="geu-gg-Qyu"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ageLable" destination="4pT-uZ-XCc" id="XDZ-2t-fCc"/>
+                        <outlet property="birthdayLabel" destination="VQ9-uJ-ETK" id="OtU-Oa-0r0"/>
+                        <outlet property="birthdaycountLable" destination="rnz-gK-OYb" id="Rpc-nR-Eek"/>
+                        <outlet property="nameLabel" destination="YBe-h9-BET" id="O4Y-fD-26m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IJT-2H-NIS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -15,10 +15,10 @@ class ListTableViewController: UITableViewController  {
     var selectedText: String?
     
     var index = 0
-    
-    @IBAction func back(segue: UIStoryboardSegue){
-        
-    }
+//    
+//    @IBAction func back(segue: UIStoryboardSegue){
+//        
+//    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

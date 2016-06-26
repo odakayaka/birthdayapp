@@ -11,8 +11,14 @@ import UIKit
 class SubViewController: UIViewController {
     
     //@IBOutlet weak var tableView: UITableView!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var ageLable: UILabel!
+    @IBOutlet var birthdayLabel: UILabel!
+    @IBOutlet var birthdaycountLable: UILabel!
     
     var index: Int = 0
+    
+    var data : [String: String] = [:]
     
 //    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
 //        super.init(nibName: nil, bundle: nil)
@@ -31,8 +37,25 @@ class SubViewController: UIViewController {
         let ud = NSUserDefaults.standardUserDefaults()
         if let array = ud.arrayForKey("WORD") {
             print(array)
-            print(array[index])
+            data = array[index] as! [String : String]
         }
+        
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.dateFormat = "yyyy/MM/dd"
+        
+        nameLabel.text = data["name"]
+        birthdayLabel.text = data["birthday"]
+        
+        let birthday = data["birthday"]
+        let bdDate = dateFormatter.dateFromString(birthday!)
+        print(bdDate)
+        print(NSDate().yearsFrom(bdDate!))
+        
+        ageLable.text = "\(NSDate().yearsFrom(bdDate!))"
+        
+        // 
+        // 今年の月日でNSDate型で作る 1993/10/14 -> 2016/10/14
+        //
     }
 
     override func didReceiveMemoryWarning() {
