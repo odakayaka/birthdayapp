@@ -10,7 +10,6 @@ import UIKit
 
 class SubViewController: UIViewController {
     
-    //@IBOutlet weak var tableView: UITableView!
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var ageLable: UILabel!
     @IBOutlet var birthdayLabel: UILabel!
@@ -79,12 +78,6 @@ class SubViewController: UIViewController {
         
         birthdaycountLable.text = "\(inputDate2!.daysFrom(now))"
         
-        // 
-        // 今年の月日でNSDate型で作る
-        // 誕生日の残り日数の計算
-        
-        //誕生日の西暦を現在の西暦に直す
-                
     }
 
     override func didReceiveMemoryWarning() {

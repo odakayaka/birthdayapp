@@ -14,6 +14,8 @@ class ListTableViewController: UITableViewController  {
     let saveData = NSUserDefaults.standardUserDefaults()
     var selectedText: String?
     
+    @IBOutlet weak var listTable: UITableView!
+    
     var index = 0
 //    
 //    @IBAction func back(segue: UIStoryboardSegue){
@@ -39,6 +41,7 @@ class ListTableViewController: UITableViewController  {
             wordArray = saveData.arrayForKey("WORD")!
         }
         tableView.reloadData()
+        listTable.reloadData()
     }
     
     //セクションの数を設定
@@ -85,6 +88,15 @@ class ListTableViewController: UITableViewController  {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.index = indexPath.row
         self.performSegueWithIdentifier("toSubView", sender: nil)
+    }
+    
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        if editingStyle == UITableViewCellEditingStyle.Delete{
+            wordArray.removeAtIndex(indexPath.row)
+            saveData.setObject(wordArray, forKey: "WORD")
+            listTable.reloadData()
+        }
+        
     }
 }
 

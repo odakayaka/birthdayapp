@@ -12,6 +12,8 @@ class ListTableViewCell: UITableViewCell {
     
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var birthdayLabel: UILabel!
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
