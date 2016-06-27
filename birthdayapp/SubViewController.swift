@@ -40,7 +40,7 @@ class SubViewController: UIViewController {
             data = array[index] as! [String : String]
         }
         
-        let dateFormatter = NSDateFormatter()
+        let dateFormatter = NSDateFormatter()//日付をフォーマット
         dateFormatter.dateFormat = "yyyy/MM/dd"
         
         nameLabel.text = data["name"]
@@ -53,9 +53,38 @@ class SubViewController: UIViewController {
         
         ageLable.text = "\(NSDate().yearsFrom(bdDate!))"
         
+        let calendar = NSCalendar(identifier: NSCalendarIdentifierGregorian)!
+        let bdyear:Int = calendar.component(.Year, fromDate: bdDate!)
+        let bdmonth:Int = calendar.component(.Month, fromDate: bdDate!)
+        let bdday:Int = calendar.component(.Day, fromDate: bdDate!)
+        
+        let now = NSDate()
+        let nowyear:Int = calendar.component(.Year, fromDate: now)
+        let nowmonth:Int = calendar.component(.Month, fromDate: now)
+        let nowday:Int = calendar.component(.Day, fromDate: now)
+        
+        let dateFormatter2 = NSDateFormatter()
+        dateFormatter.dateFormat = "yyyy/MM/dd"
+        
+        var y = nowyear
+        
+        if (nowmonth > bdmonth){
+            y = nowyear + 1
+        }else if ((nowmonth == bdmonth) && (nowday > bdday)){
+           y = nowyear + 1
+        }
+        
+        let inputDate2 = dateFormatter.dateFromString(String(y) + "/" + String(bdmonth) + "/" + String(bdday))
+        
+        
+        birthdaycountLable.text = "\(inputDate2!.daysFrom(now))"
+        
         // 
-        // 今年の月日でNSDate型で作る 1993/10/14 -> 2016/10/14
-        //
+        // 今年の月日でNSDate型で作る
+        // 誕生日の残り日数の計算
+        
+        //誕生日の西暦を現在の西暦に直す
+                
     }
 
     override func didReceiveMemoryWarning() {
