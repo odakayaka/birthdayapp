@@ -28,6 +28,11 @@ class AddViewController: UIViewController , UITextFieldDelegate{
             wordArray = saveData.arrayForKey("WORD")!
         }
         
+        let datePickerView:UIDatePicker = UIDatePicker()
+        datePickerView.datePickerMode = UIDatePickerMode.Date
+        birthdayTextField.inputView = datePickerView
+        datePickerView.addTarget(self, action: #selector(datePickerValueChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
+        
         //datepicker上のtoolbarのdoneボタン
         toolBar = UIToolbar()
         toolBar.sizeToFit()
@@ -37,29 +42,12 @@ class AddViewController: UIViewController , UITextFieldDelegate{
         
         let saveButton = self.navigationItem.rightBarButtonItem
         saveButton!.enabled = false
+        
+        nameTextField.delegate = self
+        birthdayTextField.delegate = self
+        
     }
     
-    @IBAction func valueChangeNameTextField(){
-        NSLog("OK")
-        let saveButton = self.navigationItem.rightBarButtonItem
-        if((nameTextField.text == "") || (birthdayTextField.text == String(""))){
-            //どちらかのTextFieldが空の時
-            NSLog("OK")
-            saveButton!.enabled = false
-        }else if((nameTextField.text != "") && (birthdayTextField.text != String(""))){
-            //nameTextFieldに一文字でも入力されている時
-            NSLog("NG")
-            saveButton!.enabled = true
-        }
-    }
-    
-    //テキストフィールドが選択されたらdatepickerを表示
-    @IBAction func textFieldEditing(sender: UITextField){
-        let datePickerView:UIDatePicker = UIDatePicker()
-        datePickerView.datePickerMode = UIDatePickerMode.Date
-        sender.inputView = datePickerView
-        datePickerView.addTarget(self, action: #selector(datePickerValueChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
-    }
     
     //datepickerが選択されたらtextfieldに表示
     func datePickerValueChanged(sender:UIDatePicker){
@@ -72,21 +60,23 @@ class AddViewController: UIViewController , UITextFieldDelegate{
         birthdayTextField.resignFirstResponder()
     }
     
-//    func nameTextField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-//        var textFieldString = nameTextField.text! as NSString
-//        textFieldString = textFieldString.stringByReplacingCharactersInRange(range, withString: string)
-//        let saveButton = UIBarButtonItem()
-//        if(nameTextField.text == ""){
-//            //nameTextFieldが空の時
-//            NSLog("OK")
-//            saveButton.enabled = false
-//        }else{
-//            //nameTextFieldに一文字でも入力されている時
-//            NSLog("NG")
-//            saveButton.enabled = true
-//        }
-//        return true
-//    }
+    
+    func textFieldDidEndEditing(textField: UITextField) {
+        guard let nt = nameTextField.text, bdt = birthdayTextField.text else {
+            return
+        }
+        let saveButton = self.navigationItem.rightBarButtonItem
+        if !nt.isEmpty && !bdt.isEmpty {
+            saveButton?.enabled = true
+        }
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+
+    
     
     //保存！
     @IBAction func save(sender: UIBarButtonItem){
@@ -96,6 +86,7 @@ class AddViewController: UIViewController , UITextFieldDelegate{
         saveData.setObject(wordArray, forKey: "WORD")
         NSUserDefaults.standardUserDefaults().synchronize()
         
+        
         let alert = UIAlertController(title:"保存完了" , message:"新規登録が完了しました！" , preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK" , style: UIAlertActionStyle.Default, handler: nil))
         
@@ -103,8 +94,11 @@ class AddViewController: UIViewController , UITextFieldDelegate{
         nameTextField.text = ""
         birthdayTextField.text = ""
         
+        
     }
     
+
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

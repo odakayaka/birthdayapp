@@ -215,19 +215,11 @@
                                 <rect key="frame" x="127" y="143" width="167" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="valueChangeNameTextField" destination="e78-dc-1GV" eventType="editingChanged" id="csB-vE-5xu"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NH3-v5-vBp">
                                 <rect key="frame" x="127" y="255" width="167" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textFieldEditing:" destination="e78-dc-1GV" eventType="editingDidEnd" id="3rR-nv-qyh"/>
-                                    <action selector="valueChangeNameTextField" destination="e78-dc-1GV" eventType="editingChanged" id="gzs-wx-uQ0"/>
-                                    <action selector="valueChangeNameTextField" destination="e78-dc-1GV" eventType="editingDidEndOnExit" id="oA7-Re-RXh"/>
-                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

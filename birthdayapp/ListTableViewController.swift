@@ -13,6 +13,7 @@ class ListTableViewController: UITableViewController  {
     var wordArray: [AnyObject] = []
     let saveData = NSUserDefaults.standardUserDefaults()
     var selectedText: String?
+    var logoImageView: UIImageView!
     
     @IBOutlet weak var listTable: UITableView!
     
@@ -30,11 +31,27 @@ class ListTableViewController: UITableViewController  {
         if saveData.arrayForKey("WORD") != nil{
             wordArray = saveData.arrayForKey("WORD")!
         }
-        //let wordArray: AnyObject! = saveData.arrayForKey("WORD")
     }
+//    
+//    //アニメーション
+//    override func viewDidAppear(animated: Bool) {
+//        UIView.animateWithDuration(0.3, delay: 1.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () in
+//            self.logoImageView.transform = CGAffineTransformMakeScale(0.9, 0.9)
+//            }, completion: { (Bool) in
+//                
+//        })
+//        
+//        UIView.animateWithDuration(0.2,
+//                                   delay: 1.3,
+//                                   options: UIViewAnimationOptions.CurveEaseOut,
+//                                   animations: { () in
+//                                    self.logoImageView.transform = CGAffineTransformMakeScale(1.2, 1.2)
+//                                    self.logoImageView.alpha = 0
+//            }, completion: { (Bool) in
+//                self.logoImageView.removeFromSuperview()
+//        })
+//    }
     
-
-
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         if saveData.arrayForKey("WORD") != nil{
