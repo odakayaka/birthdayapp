@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddViewController: UIViewController {
+class AddViewController: UIViewController , UITextFieldDelegate{
     //宣言
     @IBOutlet var nameTextField:UITextField!
     @IBOutlet var birthdayTextField:UITextField!
@@ -34,6 +34,23 @@ class AddViewController: UIViewController {
         let toolBarBtn = UIBarButtonItem(title: "Done" , style: .Plain , target: self , action: #selector(doneBtn))
         toolBar.items = [toolBarBtn]
         birthdayTextField.inputAccessoryView = toolBar
+        
+        let saveButton = self.navigationItem.rightBarButtonItem
+        saveButton!.enabled = false
+    }
+    
+    @IBAction func valueChangeNameTextField(){
+        NSLog("OK")
+        let saveButton = self.navigationItem.rightBarButtonItem
+        if((nameTextField.text == "") || (birthdayTextField.text == String(""))){
+            //どちらかのTextFieldが空の時
+            NSLog("OK")
+            saveButton!.enabled = false
+        }else if((nameTextField.text != "") && (birthdayTextField.text != String(""))){
+            //nameTextFieldに一文字でも入力されている時
+            NSLog("NG")
+            saveButton!.enabled = true
+        }
     }
     
     //テキストフィールドが選択されたらdatepickerを表示
@@ -55,10 +72,25 @@ class AddViewController: UIViewController {
         birthdayTextField.resignFirstResponder()
     }
     
+//    func nameTextField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+//        var textFieldString = nameTextField.text! as NSString
+//        textFieldString = textFieldString.stringByReplacingCharactersInRange(range, withString: string)
+//        let saveButton = UIBarButtonItem()
+//        if(nameTextField.text == ""){
+//            //nameTextFieldが空の時
+//            NSLog("OK")
+//            saveButton.enabled = false
+//        }else{
+//            //nameTextFieldに一文字でも入力されている時
+//            NSLog("NG")
+//            saveButton.enabled = true
+//        }
+//        return true
+//    }
+    
     //保存！
-    @IBAction func save(){
+    @IBAction func save(sender: UIBarButtonItem){
         let birthdayDictionary = ["name": nameTextField.text! , "birthday": birthdayTextField.text!]
-        
         
         wordArray.append(birthdayDictionary)
         saveData.setObject(wordArray, forKey: "WORD")
@@ -70,8 +102,9 @@ class AddViewController: UIViewController {
         self.presentViewController(alert, animated: true, completion: nil)
         nameTextField.text = ""
         birthdayTextField.text = ""
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
