@@ -17,11 +17,8 @@ class ListTableViewController: UITableViewController  {
     
     @IBOutlet weak var listTable: UITableView!
     
+    
     var index = 0
-//    
-//    @IBAction func back(segue: UIStoryboardSegue){
-//        
-//    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,25 +29,6 @@ class ListTableViewController: UITableViewController  {
             wordArray = saveData.arrayForKey("WORD")!
         }
     }
-//    
-//    //アニメーション
-//    override func viewDidAppear(animated: Bool) {
-//        UIView.animateWithDuration(0.3, delay: 1.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () in
-//            self.logoImageView.transform = CGAffineTransformMakeScale(0.9, 0.9)
-//            }, completion: { (Bool) in
-//                
-//        })
-//        
-//        UIView.animateWithDuration(0.2,
-//                                   delay: 1.3,
-//                                   options: UIViewAnimationOptions.CurveEaseOut,
-//                                   animations: { () in
-//                                    self.logoImageView.transform = CGAffineTransformMakeScale(1.2, 1.2)
-//                                    self.logoImageView.alpha = 0
-//            }, completion: { (Bool) in
-//                self.logoImageView.removeFromSuperview()
-//        })
-//    }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
@@ -83,30 +61,19 @@ class ListTableViewController: UITableViewController  {
         return cell
     }
     
-//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//            performSegueWithIdentifier("toSubViewController", sender: nil)
-//        selectedText = wordArray[indexPath.row] as! String
-//    }
-//    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "toSubView"){
             let subViewController = segue.destinationViewController as? SubViewController
             subViewController?.index = self.index
         }
     }
-    //セルを選択！
-//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//       
-//            let targetViewController = self.storyboard!.instantiateViewControllerWithIdentifier("SubViewController")as! UIViewController
-//            self.presentViewController(targetViewController, animated: true, completion: nil)
-//        
-//    }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.index = indexPath.row
         self.performSegueWithIdentifier("toSubView", sender: nil)
     }
     
+    //削除
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == UITableViewCellEditingStyle.Delete{
             wordArray.removeAtIndex(indexPath.row)
