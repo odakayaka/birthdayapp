@@ -86,6 +86,23 @@ class ListTableViewController: UITableViewController  {
             listTable.reloadData()
         }
     }
+    //Editボタンをおした時
+    @IBAction func editButtonPushed(sender: AnyObject) {
+        //通常モードと編集モードを切り替える。
+        if(listTable.editing == true) {
+            listTable.editing = false
+        } else {
+            listTable.editing = true
+        }
+    }
+    //すべてのセルを対象に
+    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return true
+    }
+    //セルの並び替えを有効にする
+    override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
+        
+    }
     
 }
 
