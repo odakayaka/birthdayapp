@@ -14,7 +14,7 @@ class ListTableViewController: UITableViewController  {
     let saveData = NSUserDefaults.standardUserDefaults()
     var selectedText: String?
     var logoImageView: UIImageView!
-    
+
     @IBOutlet weak var listTable: UITableView!
     
     
@@ -28,8 +28,8 @@ class ListTableViewController: UITableViewController  {
         if saveData.arrayForKey("WORD") != nil{
             wordArray = saveData.arrayForKey("WORD")!
         }
+        
     }
-    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         if saveData.arrayForKey("WORD") != nil{
@@ -55,9 +55,12 @@ class ListTableViewController: UITableViewController  {
         
         let nowIndexPathDictionary: (AnyObject) = wordArray[indexPath.row]//wordArrayからDictionaryを取り出す
         
+        let dateFormatter = NSDateFormatter()//日付をフォーマット
+        dateFormatter.dateFormat = "yyyy年MM月dd日"
+        
         cell.nameLabel.text = nowIndexPathDictionary["name"] as? String//Labelに代入
         cell.birthdayLabel.text = nowIndexPathDictionary["birthday"] as? String//Labelに代入
-        
+
         return cell
     }
     
@@ -73,14 +76,16 @@ class ListTableViewController: UITableViewController  {
         self.performSegueWithIdentifier("toSubView", sender: nil)
     }
     
+    
     //削除
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == UITableViewCellEditingStyle.Delete{
+        //削除の時
+        if (editingStyle == UITableViewCellEditingStyle.Delete){
             wordArray.removeAtIndex(indexPath.row)
             saveData.setObject(wordArray, forKey: "WORD")
             listTable.reloadData()
         }
-        
     }
+    
 }
 

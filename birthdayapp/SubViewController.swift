@@ -30,9 +30,7 @@ class SubViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(index)
-        // Do any additional setup after loading the view.
-//        tableView.delegate = self
-//        tableView.dataSource = self
+
         let ud = NSUserDefaults.standardUserDefaults()
         if let array = ud.arrayForKey("WORD") {
             print(array)
@@ -62,9 +60,6 @@ class SubViewController: UIViewController {
         let nowmonth:Int = calendar.component(.Month, fromDate: now)
         let nowday:Int = calendar.component(.Day, fromDate: now)
         
-        let dateFormatter2 = NSDateFormatter()
-        dateFormatter.dateFormat = "yyyy/MM/dd"
-        
         var y = nowyear
         
         if (nowmonth > bdmonth){
@@ -78,8 +73,20 @@ class SubViewController: UIViewController {
         
         birthdaycountLable.text = "\(inputDate2!.daysFrom(now))"
         
+        
     }
+    //Moreボタン
+    @IBAction func moreBtnClick(sender: UIBarButtonItem){
+        let storyboard = UIStoryboard(name: "SubViewController", bundle: nil)
+        let nextVC = storyboard.instantiateViewControllerWithIdentifier("MoreViewController")as! UIViewController
+        //let moreVirwController = MoreViewController()
+        navigationController?.pushViewController(nextVC, animated: true)
+    }
+    
 
+
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
