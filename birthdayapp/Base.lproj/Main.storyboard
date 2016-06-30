@@ -230,6 +230,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生まれてから" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv5-uE-0Ke">
+                                <rect key="frame" x="112" y="81" width="151" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2p-vi-oXT">
                                 <rect key="frame" x="104" y="129" width="166" height="51"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -237,50 +243,56 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Is-tL-M0B">
-                                <rect key="frame" x="293" y="130" width="32" height="46"/>
+                                <rect key="frame" x="293" y="134" width="32" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="経過しました！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmY-8I-dq9">
-                                <rect key="frame" x="92" y="209" width="192" height="40"/>
+                                <rect key="frame" x="92" y="196" width="192" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPI-Uj-pc0">
-                                <rect key="frame" x="108" y="305" width="159" height="44"/>
+                                <rect key="frame" x="108" y="267" width="159" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="は" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBD-F6-ldW">
-                                <rect key="frame" x="173" y="365" width="30" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="は年号で表すと" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBD-F6-ldW">
+                                <rect key="frame" x="104" y="333" width="168" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBq-kK-FXW">
-                                <rect key="frame" x="125" y="425" width="125" height="49"/>
+                                <rect key="frame" x="125" y="387" width="125" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="です" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nkl-S9-Kvz">
-                                <rect key="frame" x="287" y="429" width="44" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="年です" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nkl-S9-Kvz">
+                                <rect key="frame" x="279" y="392" width="60" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ght-Yg-bbu">
-                                <rect key="frame" x="133" y="541" width="130" height="47"/>
+                                <rect key="frame" x="122" y="469" width="130" height="47"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="生まれてから" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv5-uE-0Ke">
-                                <rect key="frame" x="112" y="81" width="151" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYB-AO-Yj6">
+                                <rect key="frame" x="156" y="544" width="63" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="年生まれ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xml-23-ne7">
+                                <rect key="frame" x="262" y="548" width="84" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -292,6 +304,7 @@
                     <connections>
                         <outlet property="birthdayLabel" destination="aPI-Uj-pc0" id="uSY-Zl-el4"/>
                         <outlet property="daysFromLable" destination="Q2p-vi-oXT" id="zZW-Yz-OXG"/>
+                        <outlet property="etoLabel" destination="FYB-AO-Yj6" id="jc7-Bj-PHL"/>
                         <outlet property="nengouLabel" destination="FBq-kK-FXW" id="hOq-Px-3OH"/>
                         <outlet property="seizaLabel" destination="ght-Yg-bbu" id="gzD-sN-d2P"/>
                     </connections>
