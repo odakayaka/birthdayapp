@@ -83,9 +83,14 @@ class SubViewController: UIViewController {
         navigationController?.pushViewController(nextVC, animated: true)
     }
     
-
-
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "toMoreView"){
+            let moreViewController = segue.destinationViewController as? MoreViewController
+            moreViewController?.index = self.index
+        }
+    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
