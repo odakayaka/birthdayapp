@@ -101,10 +101,8 @@ class ListTableViewController: UITableViewController  {
     //セルの並び替えを有効にする
     override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
         let targetTitle = wordArray[sourceIndexPath.row]
-        if let index = wordArray.indexOf(targetTitle) {
-            wordArray.removeAtIndex(index)
-            wordArray.insert(targetTitle, atIndex: destinationIndexPath.row)
-        }
-        
+        wordArray.removeAtIndex(sourceIndexPath.row)
+        wordArray.insert(targetTitle, atIndex: destinationIndexPath.row)
+        saveData.setObject(wordArray, forKey: "WORD")
     }
 }

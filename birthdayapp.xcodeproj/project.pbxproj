@@ -751,6 +751,7 @@
 			baseConfigurationReference = 4EC8D4C54BBED170102B6863 /* Pods-birthdayapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
 				INFOPLIST_FILE = birthdayapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.birthdayapp;
