@@ -14,11 +14,11 @@ class ListTableViewController: UITableViewController  {
     let saveData = NSUserDefaults.standardUserDefaults()
     var selectedText: String?
     var logoImageView: UIImageView!
-
+    
     @IBOutlet weak var listTable: UITableView!
     
     var index = 0
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -59,7 +59,7 @@ class ListTableViewController: UITableViewController  {
         
         cell.nameLabel.text = nowIndexPathDictionary["name"] as? String//Labelに代入
         cell.birthdayLabel.text = nowIndexPathDictionary["birthday"] as? String//Labelに代入
-
+        
         return cell
     }
     
@@ -100,8 +100,11 @@ class ListTableViewController: UITableViewController  {
     }
     //セルの並び替えを有効にする
     override func tableView(tableView: UITableView, moveRowAtIndexPath sourceIndexPath: NSIndexPath, toIndexPath destinationIndexPath: NSIndexPath) {
+        let targetTitle = wordArray[sourceIndexPath.row]
+        if let index = wordArray.indexOf(targetTitle) {
+            wordArray.removeAtIndex(index)
+            wordArray.insert(targetTitle, atIndex: destinationIndexPath.row)
+        }
         
     }
-    
 }
-

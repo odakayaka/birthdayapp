@@ -28,8 +28,6 @@
 		67022A351D23BBC3000097BB /* addView.png in Resources */ = {isa = PBXBuildFile; fileRef = 67022A331D23BBC3000097BB /* addView.png */; };
 		67022A371D23C0A8000097BB /* addview@1.png in Resources */ = {isa = PBXBuildFile; fileRef = 67022A361D23C0A8000097BB /* addview@1.png */; };
 		67022A381D23C0A8000097BB /* addview@1.png in Resources */ = {isa = PBXBuildFile; fileRef = 67022A361D23C0A8000097BB /* addview@1.png */; };
-		67022A3A1D23C5FC000097BB /* tableView.png in Resources */ = {isa = PBXBuildFile; fileRef = 67022A391D23C5FC000097BB /* tableView.png */; };
-		67022A3B1D23C5FC000097BB /* tableView.png in Resources */ = {isa = PBXBuildFile; fileRef = 67022A391D23C5FC000097BB /* tableView.png */; };
 		67022A3D1D24C6B7000097BB /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67022A3C1D24C6B7000097BB /* MoreViewController.swift */; };
 		67022A3E1D24C6B7000097BB /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67022A3C1D24C6B7000097BB /* MoreViewController.swift */; };
 		6716B27B1D2671EC0051B332 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6716B2691D2671EC0051B332 /* Contents.json */; };
@@ -95,7 +93,6 @@
 		67022A2A1D23A9CD000097BB /* subView4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subView4.png; sourceTree = "<group>"; };
 		67022A331D23BBC3000097BB /* addView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addView.png; sourceTree = "<group>"; };
 		67022A361D23C0A8000097BB /* addview@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addview@1.png"; sourceTree = "<group>"; };
-		67022A391D23C5FC000097BB /* tableView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableView.png; sourceTree = "<group>"; };
 		67022A3C1D24C6B7000097BB /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		6716B2691D2671EC0051B332 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		6716B26A1D2671EC0051B332 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
@@ -257,7 +254,6 @@
 				67022A231D236E0D000097BB /* LaunchImage@1.png */,
 				67022A331D23BBC3000097BB /* addView.png */,
 				67022A361D23C0A8000097BB /* addview@1.png */,
-				67022A391D23C5FC000097BB /* tableView.png */,
 				67D41EA21D19952F00AFC345 /* AppDelegate.swift */,
 				67D41EA41D19952F00AFC345 /* ListTableViewController.swift */,
 				67D41ED01D199EB900AFC345 /* AddViewController.swift */,
@@ -427,7 +423,6 @@
 				6716B27B1D2671EC0051B332 /* Contents.json in Resources */,
 				67D41ED71D19AE8A00AFC345 /* ListTableViewCell.xib in Resources */,
 				6716B2861D2671EC0051B332 /* Icon-App-76x76@2x.png in Resources */,
-				67022A3A1D23C5FC000097BB /* tableView.png in Resources */,
 				6716B2841D2671EC0051B332 /* Icon-App-60x60@3x.png in Resources */,
 				6716B28A1D2671EC0051B332 /* iTunesArtwork@2x.png in Resources */,
 				676C54501D254D6F00CDD1B0 /* moreView.png in Resources */,
@@ -457,7 +452,6 @@
 				67022A2E1D23A9CD000097BB /* subView2.png in Resources */,
 				67022A1F1D22B03C000097BB /* View.xib in Resources */,
 				67022A221D22B93E000097BB /* icon@1.png in Resources */,
-				67022A3B1D23C5FC000097BB /* tableView.png in Resources */,
 				67022A251D236E0D000097BB /* LaunchImage@1.png in Resources */,
 				67022A351D23BBC3000097BB /* addView.png in Resources */,
 				67022A301D23A9CD000097BB /* subView3.png in Resources */,
