@@ -17,7 +17,6 @@ class ListTableViewController: UITableViewController  {
 
     @IBOutlet weak var listTable: UITableView!
     
-    
     var index = 0
 
     override func viewDidLoad() {

@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CEA2F19B47F28B09C7032061094621E /* Pods-birthdayapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2FAAAE8B0ED2C099880D1CFB4B5EABC /* Pods-birthdayapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D5C22C9E71B79F22471F9607AB9B726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		0FAB277268F9228591CBFFCCB24089A1 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ECA66658ECBE5E38B738E548068BB732 /* SVProgressHUD.bundle */; };
+		13B55396B12AFA56657DA1CF5A165BE0 /* Pods-birthdayapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF26B95AA0351871D6CABEC99BB02175 /* Pods-birthdayapp-dummy.m */; };
+		196CF454A913830FA8D22D0E8990EFF3 /* BMCustomTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23EE92E4B838A07A085E2C99F28D0B42 /* BMCustomTableView.bundle */; };
+		1ECABA24D477D0DBE6A1FAC8C4FF66D4 /* BMCustomTableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A90D02B7035E7A7897A4AB0B508F3A0D /* BMCustomTableView-dummy.m */; };
+		261A31EEE9CC7998ACE2109A342413FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		2A76B962890E675F884F37B660BDAB59 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1922BDED9FF3915956DC903838CD572 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEAF7D17EC94D1B0B3FAF31080B00B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		35C38C275A0DFC6AF484A517326F7AF0 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B306D22C84AF679BAB867A0BEF5FCDD9 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD140751343743DF6DB4C3FB57EFB56 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F678AFE7D805D6CA3FE2C42C6DC62EE5 /* SVIndefiniteAnimatedView.m */; };
+		4D28ACD01E60C094EDEEFC9B724D7417 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 40708B9A996261EA2C599D9EF63744D8 /* SVProgressHUD.m */; };
+		5835054857CF2BF57C98D9220E931E60 /* Pods-birthdayappUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7774C94A5BA1929015F1D521BE8303E2 /* Pods-birthdayappUITests-dummy.m */; };
+		5CA2D858B72B2E16206EC87212638761 /* Pods-birthdayappTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5ECF94B79819E6F80CEDE751AFDB47 /* Pods-birthdayappTests-dummy.m */; };
+		673657750305FD49F0B0616F7C0C8995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		7EB628FE8714B6728EA2A8D16AD28F13 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 58F5AC4C4B85478E0785D19D96AE3E51 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845CA4C4B4DD2885EBA33B159A07FB2F /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640E13B7AD27076E029E88B4CBE5BDA1 /* SVProgressHUD-dummy.m */; };
+		86B001635FE57889276F411D6E3CA71F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */; };
+		9CBD45B12FC9EF9354A950CFD2C5E96C /* BMCustomTableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36FA108B208AAA7E6637C48FBEB4AA75 /* BMCustomTableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6948833F58B4EF353D13D84F68FE8E6 /* Pods-birthdayappTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA5A3BF74C4E1DFBD42C98F5C2AEAEE /* Pods-birthdayappTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAA2D99D972A5A5C9BCFFC4ADB0AD50B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
+		AAC9BAA42F9FA3390A5E1BB1BD83DD8E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40246FD244D3AFD1947E9008F173672D /* SVProgressAnimatedView.m */; };
+		AD2867A23303E8D528EC353E420E32C7 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C5EC51215D2D8E5EDAD91CAC371A37D /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0FEF78561E2FC63104241B7F566C198 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCE06EAB5C3B300501517A63C29C3A5 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F972DE3F460F97A73B047A94AB6317 /* Pods-birthdayappUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0F1859CC5E8DB1AAC17335611DA7E5 /* Pods-birthdayappUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51C7BEFACF84E8BB6CFB124CFB73F51 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A7C05C846EEAB06D0EBA100DE34E8C /* SVRadialGradientLayer.m */; };
+		EC533A3C5A76BDE71A854549741AC821 /* BMCustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E64C8054948EEB8BFECCC9E59DE0DAF /* BMCustomTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C086C1703DB49B3A5C110BB0DD552BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7A25ADDB1BCD3BB009B6FD664090B0;
+			remoteInfo = "BMCustomTableView-BMCustomTableView";
+		};
+		5445197BC5064E90F2E374E3AE51B4D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6DC4437F0FFEE0055694E0D01AC13A5;
+			remoteInfo = BMCustomTableView;
+		};
+		A653DC57E4BFB2801A4F22371B4C311A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F868C6510E76050D2711504CDCA1DA;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C9D6C8A20D5FD5DFB2A938D10DD46E3 /* Pods-birthdayappUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-birthdayappUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F5ECF94B79819E6F80CEDE751AFDB47 /* Pods-birthdayappTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-birthdayappTests-dummy.m"; sourceTree = "<group>"; };
+		1432FE7D39FFEE393C9166E09F2A893D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ECCE0D71E68823293176B20466F325 /* Pods_birthdayappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthdayappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCBAF62CE566C07A4263A1C1372A6DF /* Pods-birthdayapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthdayapp-resources.sh"; sourceTree = "<group>"; };
+		1C5EC51215D2D8E5EDAD91CAC371A37D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		1DF4D8708F75F2D1EE52086A7855418D /* Pods-birthdayappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthdayappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23EE92E4B838A07A085E2C99F28D0B42 /* BMCustomTableView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMCustomTableView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB885E5F6B67F1A02BEA52408290ADA /* Pods-birthdayapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-birthdayapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36FA108B208AAA7E6637C48FBEB4AA75 /* BMCustomTableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMCustomTableView-umbrella.h"; sourceTree = "<group>"; };
+		40246FD244D3AFD1947E9008F173672D /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		40708B9A996261EA2C599D9EF63744D8 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		42594A67C893F6DB6B2B73A690A45865 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4548D92384598F84382C6F39060BD05D /* Pods-birthdayappUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthdayappUITests-frameworks.sh"; sourceTree = "<group>"; };
+		455EB2C5EFC6063BCCEB1F16964C64BF /* Pods-birthdayapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthdayapp-frameworks.sh"; sourceTree = "<group>"; };
+		45939597D87C0F8EFFB44FBF4612DFD4 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		477697EDB9F0E1D71528CB770D597144 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490405AEA33D9DBE9B4865375D00CB1C /* Pods-birthdayapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-birthdayapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		493D80D2F06D2298874D5D3A9508AFFF /* Pods-birthdayapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthdayapp.debug.xcconfig"; sourceTree = "<group>"; };
+		51FEDFD10F3E038C5B2A4F4AFD31DD43 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571B23BE6849ABA67344B81BD6B65E7F /* Pods_birthdayapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthdayapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F5AC4C4B85478E0785D19D96AE3E51 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		5A0F1134FB902EE02B00DF6DCC40CD0F /* BMCustomTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BMCustomTableView-prefix.pch"; sourceTree = "<group>"; };
+		5F5441A49CC8245FB6B7FA0C39D568A9 /* Pods-birthdayapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-birthdayapp.modulemap"; sourceTree = "<group>"; };
+		5F6BDDC31E9215922558C23F29240433 /* BMCustomTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BMCustomTableView.xcconfig; sourceTree = "<group>"; };
+		640E13B7AD27076E029E88B4CBE5BDA1 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		6608440D2C9C084529E8A8436F32B71B /* Pods-birthdayappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthdayappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AE0B16F1FE715520BE870137F990845 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		6E64C8054948EEB8BFECCC9E59DE0DAF /* BMCustomTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BMCustomTableView.swift; path = Pod/Classes/BMCustomTableView.swift; sourceTree = "<group>"; };
+		75CB8FCDB4A216A351C8BA5E039BD39D /* Pods-birthdayappTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-birthdayappTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7774C94A5BA1929015F1D521BE8303E2 /* Pods-birthdayappUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-birthdayappUITests-dummy.m"; sourceTree = "<group>"; };
+		7855CDF55FE3F00C63D034809037A050 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6109E3B0BD994BD65AC0C95B428DCA /* Pods-birthdayappUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-birthdayappUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81670D13AC2489B51FEB2CD0220ACB75 /* Pods-birthdayappUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-birthdayappUITests.modulemap"; sourceTree = "<group>"; };
+		8C1E798417FD68AD2CB35C09F91A6384 /* Pods-birthdayappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthdayappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		918A60C6F4FBB23BC01E09C3334A347C /* Pods-birthdayapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthdayapp.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1273140D6D69C4FA6D7C29C2F8B1426 /* ResourceBundle-BMCustomTableView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BMCustomTableView-Info.plist"; sourceTree = "<group>"; };
+		A90D02B7035E7A7897A4AB0B508F3A0D /* BMCustomTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BMCustomTableView-dummy.m"; sourceTree = "<group>"; };
+		AC3FF720BD463C4E0B6E17FC8693E648 /* Pods-birthdayappTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthdayappTests-frameworks.sh"; sourceTree = "<group>"; };
+		B306D22C84AF679BAB867A0BEF5FCDD9 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		BB0F1859CC5E8DB1AAC17335611DA7E5 /* Pods-birthdayappUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-birthdayappUITests-umbrella.h"; sourceTree = "<group>"; };
+		BDCE06EAB5C3B300501517A63C29C3A5 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		C1922BDED9FF3915956DC903838CD572 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		C4822E10BA306A1AEDD67D830014184F /* Pods_birthdayappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthdayappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5DF87CB56F300876520FD644BBB239 /* Pods-birthdayappTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthdayappTests-resources.sh"; sourceTree = "<group>"; };
+		D3A7C05C846EEAB06D0EBA100DE34E8C /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		DBA5A3BF74C4E1DFBD42C98F5C2AEAEE /* Pods-birthdayappTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-birthdayappTests-umbrella.h"; sourceTree = "<group>"; };
+		DD9A9DD91E2508A76FCFEA02B1D2442A /* Pods-birthdayappUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthdayappUITests-resources.sh"; sourceTree = "<group>"; };
+		DF26B95AA0351871D6CABEC99BB02175 /* Pods-birthdayapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-birthdayapp-dummy.m"; sourceTree = "<group>"; };
+		DF31C6AAD18A1ED187A7DE986F4D8E84 /* BMCustomTableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BMCustomTableView.modulemap; sourceTree = "<group>"; };
+		E0878F01FF3383A5676F07002E25C322 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E218E1CDD39F784ECA5B8A1EE34ED01D /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		E337BFD75252C5FEFBF62771B8B1AFA3 /* Pods-birthdayappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthdayappTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EC1B72F9BFD93D5A62661F02DD74DE01 /* Pods-birthdayappTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-birthdayappTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECA66658ECBE5E38B738E548068BB732 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		F2FAAAE8B0ED2C099880D1CFB4B5EABC /* Pods-birthdayapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-birthdayapp-umbrella.h"; sourceTree = "<group>"; };
+		F678AFE7D805D6CA3FE2C42C6DC62EE5 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		F883A1BB7D3F3A1265D0384E6A2384AB /* Pods-birthdayappTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-birthdayappTests.modulemap"; sourceTree = "<group>"; };
+		FAEBBE44C274D63CD70A45C5487A522D /* BMCustomTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMCustomTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		119B6C23BB63ADFC7942F6B7883DEF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5C22C9E71B79F22471F9607AB9B726 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2366D832352BE8AD34AEE0CD43238893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEAF7D17EC94D1B0B3FAF31080B00B6 /* Foundation.framework in Frameworks */,
+				86B001635FE57889276F411D6E3CA71F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		414A1F227221170C1141FE77516654D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673657750305FD49F0B0616F7C0C8995 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7381A2683D0C71EBD57078F055702DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83914FCC720EA75059AEAEADDE9600D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA2D99D972A5A5C9BCFFC4ADB0AD50B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3C4FD92E9BF9D29F07170D3380A478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261A31EEE9CC7998ACE2109A342413FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23BFF4E43037AB0B800B49A2D29CA714 /* Pods-birthdayappTests */ = {
+			isa = PBXGroup;
+			children = (
+				477697EDB9F0E1D71528CB770D597144 /* Info.plist */,
+				F883A1BB7D3F3A1265D0384E6A2384AB /* Pods-birthdayappTests.modulemap */,
+				75CB8FCDB4A216A351C8BA5E039BD39D /* Pods-birthdayappTests-acknowledgements.markdown */,
+				EC1B72F9BFD93D5A62661F02DD74DE01 /* Pods-birthdayappTests-acknowledgements.plist */,
+				0F5ECF94B79819E6F80CEDE751AFDB47 /* Pods-birthdayappTests-dummy.m */,
+				AC3FF720BD463C4E0B6E17FC8693E648 /* Pods-birthdayappTests-frameworks.sh */,
+				CA5DF87CB56F300876520FD644BBB239 /* Pods-birthdayappTests-resources.sh */,
+				DBA5A3BF74C4E1DFBD42C98F5C2AEAEE /* Pods-birthdayappTests-umbrella.h */,
+				8C1E798417FD68AD2CB35C09F91A6384 /* Pods-birthdayappTests.debug.xcconfig */,
+				E337BFD75252C5FEFBF62771B8B1AFA3 /* Pods-birthdayappTests.release.xcconfig */,
+			);
+			name = "Pods-birthdayappTests";
+			path = "Target Support Files/Pods-birthdayappTests";
+			sourceTree = "<group>";
+		};
+		2B79A226ECB49BC97F13C83377747E65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0A0B0F5EB5B954873A138A970AA9C /* Pods-birthdayapp */,
+				23BFF4E43037AB0B800B49A2D29CA714 /* Pods-birthdayappTests */,
+				9666B672053CE102B7256AA08E89ABCC /* Pods-birthdayappUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		306A705398678D2BC46AB87F668BBEFD /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BDCE06EAB5C3B300501517A63C29C3A5 /* SVIndefiniteAnimatedView.h */,
+				F678AFE7D805D6CA3FE2C42C6DC62EE5 /* SVIndefiniteAnimatedView.m */,
+				B306D22C84AF679BAB867A0BEF5FCDD9 /* SVProgressAnimatedView.h */,
+				40246FD244D3AFD1947E9008F173672D /* SVProgressAnimatedView.m */,
+				1C5EC51215D2D8E5EDAD91CAC371A37D /* SVProgressHUD.h */,
+				40708B9A996261EA2C599D9EF63744D8 /* SVProgressHUD.m */,
+				58F5AC4C4B85478E0785D19D96AE3E51 /* SVRadialGradientLayer.h */,
+				D3A7C05C846EEAB06D0EBA100DE34E8C /* SVRadialGradientLayer.m */,
+				B42CE68DA6E6E8E7EAAA286872A48E26 /* Resources */,
+				D21C473344301180E66B6A36003A5F0F /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		40B7C84363A7DAE8DF4B80A9D3C0BE8C /* BMCustomTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6E64C8054948EEB8BFECCC9E59DE0DAF /* BMCustomTableView.swift */,
+				E3587398404D2383D5CC573B7D9032B0 /* Support Files */,
+			);
+			path = BMCustomTableView;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89F803C7E2D77E11F2120CB28FE0B795 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62692650AE8BE295A515DF2B2DF7DEA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40B7C84363A7DAE8DF4B80A9D3C0BE8C /* BMCustomTableView */,
+				306A705398678D2BC46AB87F668BBEFD /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				62692650AE8BE295A515DF2B2DF7DEA6 /* Pods */,
+				EE0348537D6CB4EB80887901B541703B /* Products */,
+				2B79A226ECB49BC97F13C83377747E65 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F803C7E2D77E11F2120CB28FE0B795 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */,
+				EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9666B672053CE102B7256AA08E89ABCC /* Pods-birthdayappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1432FE7D39FFEE393C9166E09F2A893D /* Info.plist */,
+				81670D13AC2489B51FEB2CD0220ACB75 /* Pods-birthdayappUITests.modulemap */,
+				0C9D6C8A20D5FD5DFB2A938D10DD46E3 /* Pods-birthdayappUITests-acknowledgements.markdown */,
+				7A6109E3B0BD994BD65AC0C95B428DCA /* Pods-birthdayappUITests-acknowledgements.plist */,
+				7774C94A5BA1929015F1D521BE8303E2 /* Pods-birthdayappUITests-dummy.m */,
+				4548D92384598F84382C6F39060BD05D /* Pods-birthdayappUITests-frameworks.sh */,
+				DD9A9DD91E2508A76FCFEA02B1D2442A /* Pods-birthdayappUITests-resources.sh */,
+				BB0F1859CC5E8DB1AAC17335611DA7E5 /* Pods-birthdayappUITests-umbrella.h */,
+				6608440D2C9C084529E8A8436F32B71B /* Pods-birthdayappUITests.debug.xcconfig */,
+				1DF4D8708F75F2D1EE52086A7855418D /* Pods-birthdayappUITests.release.xcconfig */,
+			);
+			name = "Pods-birthdayappUITests";
+			path = "Target Support Files/Pods-birthdayappUITests";
+			sourceTree = "<group>";
+		};
+		9FF0A0B0F5EB5B954873A138A970AA9C /* Pods-birthdayapp */ = {
+			isa = PBXGroup;
+			children = (
+				51FEDFD10F3E038C5B2A4F4AFD31DD43 /* Info.plist */,
+				5F5441A49CC8245FB6B7FA0C39D568A9 /* Pods-birthdayapp.modulemap */,
+				2CB885E5F6B67F1A02BEA52408290ADA /* Pods-birthdayapp-acknowledgements.markdown */,
+				490405AEA33D9DBE9B4865375D00CB1C /* Pods-birthdayapp-acknowledgements.plist */,
+				DF26B95AA0351871D6CABEC99BB02175 /* Pods-birthdayapp-dummy.m */,
+				455EB2C5EFC6063BCCEB1F16964C64BF /* Pods-birthdayapp-frameworks.sh */,
+				1BCBAF62CE566C07A4263A1C1372A6DF /* Pods-birthdayapp-resources.sh */,
+				F2FAAAE8B0ED2C099880D1CFB4B5EABC /* Pods-birthdayapp-umbrella.h */,
+				493D80D2F06D2298874D5D3A9508AFFF /* Pods-birthdayapp.debug.xcconfig */,
+				918A60C6F4FBB23BC01E09C3334A347C /* Pods-birthdayapp.release.xcconfig */,
+			);
+			name = "Pods-birthdayapp";
+			path = "Target Support Files/Pods-birthdayapp";
+			sourceTree = "<group>";
+		};
+		B42CE68DA6E6E8E7EAAA286872A48E26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECA66658ECBE5E38B738E548068BB732 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D21C473344301180E66B6A36003A5F0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0878F01FF3383A5676F07002E25C322 /* Info.plist */,
+				45939597D87C0F8EFFB44FBF4612DFD4 /* SVProgressHUD.modulemap */,
+				E218E1CDD39F784ECA5B8A1EE34ED01D /* SVProgressHUD.xcconfig */,
+				640E13B7AD27076E029E88B4CBE5BDA1 /* SVProgressHUD-dummy.m */,
+				6AE0B16F1FE715520BE870137F990845 /* SVProgressHUD-prefix.pch */,
+				C1922BDED9FF3915956DC903838CD572 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		E3587398404D2383D5CC573B7D9032B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF31C6AAD18A1ED187A7DE986F4D8E84 /* BMCustomTableView.modulemap */,
+				5F6BDDC31E9215922558C23F29240433 /* BMCustomTableView.xcconfig */,
+				A90D02B7035E7A7897A4AB0B508F3A0D /* BMCustomTableView-dummy.m */,
+				5A0F1134FB902EE02B00DF6DCC40CD0F /* BMCustomTableView-prefix.pch */,
+				36FA108B208AAA7E6637C48FBEB4AA75 /* BMCustomTableView-umbrella.h */,
+				42594A67C893F6DB6B2B73A690A45865 /* Info.plist */,
+				A1273140D6D69C4FA6D7C29C2F8B1426 /* ResourceBundle-BMCustomTableView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BMCustomTableView";
+			sourceTree = "<group>";
+		};
+		EE0348537D6CB4EB80887901B541703B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23EE92E4B838A07A085E2C99F28D0B42 /* BMCustomTableView.bundle */,
+				FAEBBE44C274D63CD70A45C5487A522D /* BMCustomTableView.framework */,
+				571B23BE6849ABA67344B81BD6B65E7F /* Pods_birthdayapp.framework */,
+				18ECCE0D71E68823293176B20466F325 /* Pods_birthdayappTests.framework */,
+				C4822E10BA306A1AEDD67D830014184F /* Pods_birthdayappUITests.framework */,
+				7855CDF55FE3F00C63D034809037A050 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37157CE3A6D55416D407902C566EEC45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FEF78561E2FC63104241B7F566C198 /* SVIndefiniteAnimatedView.h in Headers */,
+				35C38C275A0DFC6AF484A517326F7AF0 /* SVProgressAnimatedView.h in Headers */,
+				2A76B962890E675F884F37B660BDAB59 /* SVProgressHUD-umbrella.h in Headers */,
+				AD2867A23303E8D528EC353E420E32C7 /* SVProgressHUD.h in Headers */,
+				7EB628FE8714B6728EA2A8D16AD28F13 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4438F864CC92EEEC0FF5CB808B73F001 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEA2F19B47F28B09C7032061094621E /* Pods-birthdayapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F0138C2FE2082905B7EED88AAE924A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6948833F58B4EF353D13D84F68FE8E6 /* Pods-birthdayappTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A755701643F71EEA19C31496124A35AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBD45B12FC9EF9354A950CFD2C5E96C /* BMCustomTableView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD582F276AA618111A67DEA512ACE87D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F972DE3F460F97A73B047A94AB6317 /* Pods-birthdayappUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03F868C6510E76050D2711504CDCA1DA /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20B83F504D19A0D1F16E6B4549199BD /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				10945F3D3DE83A959D2A758965FD5599 /* Sources */,
+				2366D832352BE8AD34AEE0CD43238893 /* Frameworks */,
+				37157CE3A6D55416D407902C566EEC45 /* Headers */,
+				B560866C28F81D5F928124807A28E1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 7855CDF55FE3F00C63D034809037A050 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F7A25ADDB1BCD3BB009B6FD664090B0 /* BMCustomTableView-BMCustomTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A1E026D4333E519715A27E14871442 /* Build configuration list for PBXNativeTarget "BMCustomTableView-BMCustomTableView" */;
+			buildPhases = (
+				0BF8F307D0F87421ACB4F884510AF119 /* Sources */,
+				7381A2683D0C71EBD57078F055702DA6 /* Frameworks */,
+				6C502068B2AB9705067CADEBDBEDC062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BMCustomTableView-BMCustomTableView";
+			productName = "BMCustomTableView-BMCustomTableView";
+			productReference = 23EE92E4B838A07A085E2C99F28D0B42 /* BMCustomTableView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		517139961393431A6AB4B1736CEC8007 /* Pods-birthdayapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A54DC19D26C1E01F2E9B956D73775 /* Build configuration list for PBXNativeTarget "Pods-birthdayapp" */;
+			buildPhases = (
+				4946AF92B7C261F663F656D287E0650E /* Sources */,
+				414A1F227221170C1141FE77516654D9 /* Frameworks */,
+				4438F864CC92EEEC0FF5CB808B73F001 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D9C074BEEC91FCE48E146349A8A017A /* PBXTargetDependency */,
+				7F5DFB37AF5CA2283317FB39056ABE6E /* PBXTargetDependency */,
+			);
+			name = "Pods-birthdayapp";
+			productName = "Pods-birthdayapp";
+			productReference = 571B23BE6849ABA67344B81BD6B65E7F /* Pods_birthdayapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B64B861B803F391F03FEF59F66D01F4D /* Pods-birthdayappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860C2B784C8C960A2B843E211467E9F4 /* Build configuration list for PBXNativeTarget "Pods-birthdayappTests" */;
+			buildPhases = (
+				A5CE90A0825F82AD685DDBA720E265D0 /* Sources */,
+				119B6C23BB63ADFC7942F6B7883DEF95 /* Frameworks */,
+				7F0138C2FE2082905B7EED88AAE924A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-birthdayappTests";
+			productName = "Pods-birthdayappTests";
+			productReference = 18ECCE0D71E68823293176B20466F325 /* Pods_birthdayappTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6DC4437F0FFEE0055694E0D01AC13A5 /* BMCustomTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34E96EFC41FB8676FFC52544473A85A /* Build configuration list for PBXNativeTarget "BMCustomTableView" */;
+			buildPhases = (
+				9936B07F2B637FD3C1955414373F4090 /* Sources */,
+				8A3C4FD92E9BF9D29F07170D3380A478 /* Frameworks */,
+				615BB27E5709DF47C5BA365E662C3510 /* Resources */,
+				A755701643F71EEA19C31496124A35AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D469758E0CE794F510512F9C41BC663 /* PBXTargetDependency */,
+			);
+			name = BMCustomTableView;
+			productName = BMCustomTableView;
+			productReference = FAEBBE44C274D63CD70A45C5487A522D /* BMCustomTableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D252DE8A2EC23551AD5FFE4353381F3B /* Pods-birthdayappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2259FD380B78A055BCEB727F93DC3F8 /* Build configuration list for PBXNativeTarget "Pods-birthdayappUITests" */;
+			buildPhases = (
+				F65CDE473EA88007B9489A72440E2108 /* Sources */,
+				83914FCC720EA75059AEAEADDE9600D8 /* Frameworks */,
+				BD582F276AA618111A67DEA512ACE87D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-birthdayappUITests";
+			productName = "Pods-birthdayappUITests";
+			productReference = C4822E10BA306A1AEDD67D830014184F /* Pods_birthdayappUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE0348537D6CB4EB80887901B541703B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DC4437F0FFEE0055694E0D01AC13A5 /* BMCustomTableView */,
+				3F7A25ADDB1BCD3BB009B6FD664090B0 /* BMCustomTableView-BMCustomTableView */,
+				517139961393431A6AB4B1736CEC8007 /* Pods-birthdayapp */,
+				B64B861B803F391F03FEF59F66D01F4D /* Pods-birthdayappTests */,
+				D252DE8A2EC23551AD5FFE4353381F3B /* Pods-birthdayappUITests */,
+				03F868C6510E76050D2711504CDCA1DA /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615BB27E5709DF47C5BA365E662C3510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196CF454A913830FA8D22D0E8990EFF3 /* BMCustomTableView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C502068B2AB9705067CADEBDBEDC062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B560866C28F81D5F928124807A28E1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAB277268F9228591CBFFCCB24089A1 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BF8F307D0F87421ACB4F884510AF119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10945F3D3DE83A959D2A758965FD5599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD140751343743DF6DB4C3FB57EFB56 /* SVIndefiniteAnimatedView.m in Sources */,
+				AAC9BAA42F9FA3390A5E1BB1BD83DD8E /* SVProgressAnimatedView.m in Sources */,
+				845CA4C4B4DD2885EBA33B159A07FB2F /* SVProgressHUD-dummy.m in Sources */,
+				4D28ACD01E60C094EDEEFC9B724D7417 /* SVProgressHUD.m in Sources */,
+				E51C7BEFACF84E8BB6CFB124CFB73F51 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4946AF92B7C261F663F656D287E0650E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B55396B12AFA56657DA1CF5A165BE0 /* Pods-birthdayapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9936B07F2B637FD3C1955414373F4090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECABA24D477D0DBE6A1FAC8C4FF66D4 /* BMCustomTableView-dummy.m in Sources */,
+				EC533A3C5A76BDE71A854549741AC821 /* BMCustomTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CE90A0825F82AD685DDBA720E265D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA2D858B72B2E16206EC87212638761 /* Pods-birthdayappTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65CDE473EA88007B9489A72440E2108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5835054857CF2BF57C98D9220E931E60 /* Pods-birthdayappUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D9C074BEEC91FCE48E146349A8A017A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BMCustomTableView;
+			target = B6DC4437F0FFEE0055694E0D01AC13A5 /* BMCustomTableView */;
+			targetProxy = 5445197BC5064E90F2E374E3AE51B4D7 /* PBXContainerItemProxy */;
+		};
+		5D469758E0CE794F510512F9C41BC663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BMCustomTableView-BMCustomTableView";
+			target = 3F7A25ADDB1BCD3BB009B6FD664090B0 /* BMCustomTableView-BMCustomTableView */;
+			targetProxy = 4C086C1703DB49B3A5C110BB0DD552BD /* PBXContainerItemProxy */;
+		};
+		7F5DFB37AF5CA2283317FB39056ABE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 03F868C6510E76050D2711504CDCA1DA /* SVProgressHUD */;
+			targetProxy = A653DC57E4BFB2801A4F22371B4C311A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		126A252D0E76477A60B6358A07660A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E337BFD75252C5FEFBF62771B8B1AFA3 /* Pods-birthdayappTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthdayappTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthdayappTests/Pods-birthdayappTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthdayappTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		322ECE4FF19789D8FBF7008568C409C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1E798417FD68AD2CB35C09F91A6384 /* Pods-birthdayappTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthdayappTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthdayappTests/Pods-birthdayappTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthdayappTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AA8A646326B877C7BF0B5B4A6BEFB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6BDDC31E9215922558C23F29240433 /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BMCustomTableView/BMCustomTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMCustomTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMCustomTableView/BMCustomTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		519C398E388AAA99A5F26ACBA1B712B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6BDDC31E9215922558C23F29240433 /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BMCustomTableView/BMCustomTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BMCustomTableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BMCustomTableView/BMCustomTableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E8F80ED0FB0C45F34A8806A661F643B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E218E1CDD39F784ECA5B8A1EE34ED01D /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		742F762494CF0A874AA120F59DE0F970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918A60C6F4FBB23BC01E09C3334A347C /* Pods-birthdayapp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthdayapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthdayapp/Pods-birthdayapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthdayapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AD818027500AE68DE23412066B0FD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6BDDC31E9215922558C23F29240433 /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BMCustomTableView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BMCustomTableView/ResourceBundle-BMCustomTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B1731E88C3FAA716D4BD259A6F55FC8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E218E1CDD39F784ECA5B8A1EE34ED01D /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B22E19FF68CF5D227BEB93BD6E396843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6608440D2C9C084529E8A8436F32B71B /* Pods-birthdayappUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthdayappUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthdayappUITests/Pods-birthdayappUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthdayappUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B68D257C4CCF91EB752D4950DF9CD200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF4D8708F75F2D1EE52086A7855418D /* Pods-birthdayappUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthdayappUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthdayappUITests/Pods-birthdayappUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthdayappUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF91E668E9FD8036EFE212B63B9F5DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6BDDC31E9215922558C23F29240433 /* BMCustomTableView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BMCustomTableView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/BMCustomTableView/ResourceBundle-BMCustomTableView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = BMCustomTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DED929824247F397EA6D7DCC44E629A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493D80D2F06D2298874D5D3A9508AFFF /* Pods-birthdayapp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthdayapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthdayapp/Pods-birthdayapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthdayapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449A54DC19D26C1E01F2E9B956D73775 /* Build configuration list for PBXNativeTarget "Pods-birthdayapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED929824247F397EA6D7DCC44E629A2 /* Debug */,
+				742F762494CF0A874AA120F59DE0F970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		860C2B784C8C960A2B843E211467E9F4 /* Build configuration list for PBXNativeTarget "Pods-birthdayappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322ECE4FF19789D8FBF7008568C409C2 /* Debug */,
+				126A252D0E76477A60B6358A07660A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20B83F504D19A0D1F16E6B4549199BD /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1731E88C3FAA716D4BD259A6F55FC8A /* Debug */,
+				6E8F80ED0FB0C45F34A8806A661F643B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2259FD380B78A055BCEB727F93DC3F8 /* Build configuration list for PBXNativeTarget "Pods-birthdayappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22E19FF68CF5D227BEB93BD6E396843 /* Debug */,
+				B68D257C4CCF91EB752D4950DF9CD200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34E96EFC41FB8676FFC52544473A85A /* Build configuration list for PBXNativeTarget "BMCustomTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AA8A646326B877C7BF0B5B4A6BEFB2 /* Debug */,
+				519C398E388AAA99A5F26ACBA1B712B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A1E026D4333E519715A27E14871442 /* Build configuration list for PBXNativeTarget "BMCustomTableView-BMCustomTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF91E668E9FD8036EFE212B63B9F5DF6 /* Debug */,
+				7AD818027500AE68DE23412066B0FD26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

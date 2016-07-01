@@ -1,0 +1,6 @@
+framework module Pods_birthdayappUITests {
+  umbrella header "Pods-birthdayappUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
