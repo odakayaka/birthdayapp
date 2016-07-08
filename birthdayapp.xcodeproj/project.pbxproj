@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2200D584D75434D7FD122EE4 /* Pods_birthdayappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A5D408445FCDD5C6755A81 /* Pods_birthdayappTests.framework */; };
 		670229D11D1E4E6D000097BB /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED21D199ED500AFC345 /* SubViewController.swift */; };
 		670229D31D1E6502000097BB /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670229D21D1E6502000097BB /* DateViewController.swift */; };
 		67022A1E1D22B03C000097BB /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67022A1D1D22B03C000097BB /* View.xib */; };
@@ -58,8 +57,6 @@
 		67D41ED11D199EB900AFC345 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED01D199EB900AFC345 /* AddViewController.swift */; };
 		67D41ED61D19AE8A00AFC345 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D41ED41D19AE8A00AFC345 /* ListTableViewCell.swift */; };
 		67D41ED71D19AE8A00AFC345 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D41ED51D19AE8A00AFC345 /* ListTableViewCell.xib */; };
-		858A60D271F8A8F31095B033 /* Pods_birthdayapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3EE8DEC61145E7A0055E46 /* Pods_birthdayapp.framework */; };
-		DFE064AA31DFE9B0ECB3B528 /* Pods_birthdayappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFAA659F6BB4262247F0D21 /* Pods_birthdayappUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,9 +77,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B0B6E6A11E7457B4807B03 /* Pods-birthdayappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthdayappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-birthdayappTests/Pods-birthdayappTests.debug.xcconfig"; sourceTree = "<group>"; };
-		20043987FD526B57047DF9BD /* Pods-birthdayappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthdayappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-birthdayappUITests/Pods-birthdayappUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4EC8D4C54BBED170102B6863 /* Pods-birthdayapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthdayapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-birthdayapp/Pods-birthdayapp.release.xcconfig"; sourceTree = "<group>"; };
 		670229D21D1E6502000097BB /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		67022A1D1D22B03C000097BB /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		67022A201D22B93E000097BB /* icon@1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@1.png"; sourceTree = "<group>"; };
@@ -113,28 +107,22 @@
 		6716B2791D2671EC0051B332 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		676C544F1D254D6F00CDD1B0 /* moreView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreView.png; sourceTree = "<group>"; };
 		676C54511D254EFE00CDD1B0 /* more2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more2.png; sourceTree = "<group>"; };
-		67D41E9F1D19952F00AFC345 /* birthdayapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birthdayapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67780A191D2F2E6F002DFF9F /* birthdayapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birthdayapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67780A1A1D2F2E6F002DFF9F /* birthdayappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birthdayappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67780A1B1D2F2E6F002DFF9F /* birthdayappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birthdayappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D41EA21D19952F00AFC345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67D41EA41D19952F00AFC345 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		67D41EA71D19952F00AFC345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67D41EA91D19952F00AFC345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67D41EAE1D19952F00AFC345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67D41EB31D19952F00AFC345 /* birthdayappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birthdayappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D41EB71D19952F00AFC345 /* birthdayappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birthdayappTests.swift; sourceTree = "<group>"; };
 		67D41EB91D19952F00AFC345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67D41EBE1D19952F00AFC345 /* birthdayappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = birthdayappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D41EC21D19952F00AFC345 /* birthdayappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birthdayappUITests.swift; sourceTree = "<group>"; };
 		67D41EC41D19952F00AFC345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67D41ED01D199EB900AFC345 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		67D41ED21D199ED500AFC345 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
 		67D41ED41D19AE8A00AFC345 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		67D41ED51D19AE8A00AFC345 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
-		69717F72A60DBF53B7DBC218 /* Pods-birthdayapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthdayapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-birthdayapp/Pods-birthdayapp.debug.xcconfig"; sourceTree = "<group>"; };
-		6AFAA659F6BB4262247F0D21 /* Pods_birthdayappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthdayappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E3EE8DEC61145E7A0055E46 /* Pods_birthdayapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthdayapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0A5D408445FCDD5C6755A81 /* Pods_birthdayappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthdayappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB5ACDE654A7879C0D8C2BA7 /* Pods-birthdayappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthdayappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-birthdayappTests/Pods-birthdayappTests.release.xcconfig"; sourceTree = "<group>"; };
-		D832B84CA5EDD3634284764F /* Pods-birthdayappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthdayappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-birthdayappUITests/Pods-birthdayappUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +130,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				858A60D271F8A8F31095B033 /* Pods_birthdayapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +137,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2200D584D75434D7FD122EE4 /* Pods_birthdayappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,26 +144,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE064AA31DFE9B0ECB3B528 /* Pods_birthdayappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22D0234612A740672E8D81A4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				69717F72A60DBF53B7DBC218 /* Pods-birthdayapp.debug.xcconfig */,
-				4EC8D4C54BBED170102B6863 /* Pods-birthdayapp.release.xcconfig */,
-				00B0B6E6A11E7457B4807B03 /* Pods-birthdayappTests.debug.xcconfig */,
-				BB5ACDE654A7879C0D8C2BA7 /* Pods-birthdayappTests.release.xcconfig */,
-				20043987FD526B57047DF9BD /* Pods-birthdayappUITests.debug.xcconfig */,
-				D832B84CA5EDD3634284764F /* Pods-birthdayappUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		67022A261D23A9CD000097BB /* SubView */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,20 +200,10 @@
 				67D41EA11D19952F00AFC345 /* birthdayapp */,
 				67D41EB61D19952F00AFC345 /* birthdayappTests */,
 				67D41EC11D19952F00AFC345 /* birthdayappUITests */,
-				67D41EA01D19952F00AFC345 /* Products */,
-				22D0234612A740672E8D81A4 /* Pods */,
-				7078678941015C2B4137FAD2 /* Frameworks */,
+				67780A191D2F2E6F002DFF9F /* birthdayapp.app */,
+				67780A1A1D2F2E6F002DFF9F /* birthdayappTests.xctest */,
+				67780A1B1D2F2E6F002DFF9F /* birthdayappUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		67D41EA01D19952F00AFC345 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				67D41E9F1D19952F00AFC345 /* birthdayapp.app */,
-				67D41EB31D19952F00AFC345 /* birthdayappTests.xctest */,
-				67D41EBE1D19952F00AFC345 /* birthdayappUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		67D41EA11D19952F00AFC345 /* birthdayapp */ = {
@@ -288,16 +250,6 @@
 			path = birthdayappUITests;
 			sourceTree = "<group>";
 		};
-		7078678941015C2B4137FAD2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7E3EE8DEC61145E7A0055E46 /* Pods_birthdayapp.framework */,
-				B0A5D408445FCDD5C6755A81 /* Pods_birthdayappTests.framework */,
-				6AFAA659F6BB4262247F0D21 /* Pods_birthdayappUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,12 +257,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67D41EC71D19952F00AFC345 /* Build configuration list for PBXNativeTarget "birthdayapp" */;
 			buildPhases = (
-				E77A0B02FC8BB61D16D22CD8 /* [CP] Check Pods Manifest.lock */,
 				67D41E9B1D19952F00AFC345 /* Sources */,
 				67D41E9C1D19952F00AFC345 /* Frameworks */,
 				67D41E9D1D19952F00AFC345 /* Resources */,
 				E00EC418111AD67C067DB4E5 /* [CP] Embed Pods Frameworks */,
-				FB26C53DBD29D0D8F44DB1E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,7 +268,7 @@
 			);
 			name = birthdayapp;
 			productName = birthdayapp;
-			productReference = 67D41E9F1D19952F00AFC345 /* birthdayapp.app */;
+			productReference = 67780A191D2F2E6F002DFF9F /* birthdayapp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		67D41EB21D19952F00AFC345 /* birthdayappTests */ = {
@@ -339,7 +289,7 @@
 			);
 			name = birthdayappTests;
 			productName = birthdayappTests;
-			productReference = 67D41EB31D19952F00AFC345 /* birthdayappTests.xctest */;
+			productReference = 67780A1A1D2F2E6F002DFF9F /* birthdayappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		67D41EBD1D19952F00AFC345 /* birthdayappUITests */ = {
@@ -359,7 +309,7 @@
 			);
 			name = birthdayappUITests;
 			productName = birthdayappUITests;
-			productReference = 67D41EBE1D19952F00AFC345 /* birthdayappUITests.xctest */;
+			productReference = 67780A1B1D2F2E6F002DFF9F /* birthdayappUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -394,7 +344,7 @@
 				Base,
 			);
 			mainGroup = 67D41E961D19952F00AFC345;
-			productRefGroup = 67D41EA01D19952F00AFC345 /* Products */;
+			productRefGroup = 67D41E961D19952F00AFC345;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -560,36 +510,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthdayapp/Pods-birthdayapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E77A0B02FC8BB61D16D22CD8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FB26C53DBD29D0D8F44DB1E7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthdayapp/Pods-birthdayapp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -736,32 +656,33 @@
 		};
 		67D41EC81D19952F00AFC345 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69717F72A60DBF53B7DBC218 /* Pods-birthdayapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ayaka Odaka (QF5928G65U)";
 				INFOPLIST_FILE = birthdayapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.birthdayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e4ff046e-8537-44c7-a052-9b935e5f8fd0";
 			};
 			name = Debug;
 		};
 		67D41EC91D19952F00AFC345 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EC8D4C54BBED170102B6863 /* Pods-birthdayapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Ayaka Odaka (QF5928G65U)";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: Ayaka Odaka (QF5928G65U)";
 				INFOPLIST_FILE = birthdayapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.birthdayapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e4ff046e-8537-44c7-a052-9b935e5f8fd0";
 			};
 			name = Release;
 		};
 		67D41ECB1D19952F00AFC345 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00B0B6E6A11E7457B4807B03 /* Pods-birthdayappTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = birthdayappTests/Info.plist;
@@ -774,7 +695,6 @@
 		};
 		67D41ECC1D19952F00AFC345 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB5ACDE654A7879C0D8C2BA7 /* Pods-birthdayappTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = birthdayappTests/Info.plist;
@@ -787,7 +707,6 @@
 		};
 		67D41ECE1D19952F00AFC345 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20043987FD526B57047DF9BD /* Pods-birthdayappUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = birthdayappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -799,7 +718,6 @@
 		};
 		67D41ECF1D19952F00AFC345 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D832B84CA5EDD3634284764F /* Pods-birthdayappUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = birthdayappUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
