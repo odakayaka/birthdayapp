@@ -260,7 +260,6 @@
 				67D41E9B1D19952F00AFC345 /* Sources */,
 				67D41E9C1D19952F00AFC345 /* Frameworks */,
 				67D41E9D1D19952F00AFC345 /* Resources */,
-				E00EC418111AD67C067DB4E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -493,21 +492,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthdayappUITests/Pods-birthdayappUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E00EC418111AD67C067DB4E5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthdayapp/Pods-birthdayapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
